@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="~Engine" Hidden="true" />
+      <Method Name="CalculateFrameStats" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="Engine" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="LoadContent" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="PrintInputs" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQBEgAgAAQAAwACAKAAAABAgIAFAAAABAAgAFAAAAQ=</HashCode>
+      <FileName>jAzul\Engine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mTimer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowContainer">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="~WindowContainer" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="WindowContainer" Hidden="true" />
+    </Members>
+    <AssociationLine Name="kb" Type="Keyboard" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.25" />
+        <Point X="7.75" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="mo" Type="Mouse" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.5" />
+        <Point X="5.719" Y="1.5" />
+        <Point X="5.719" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAEAgIAAAAABEAAAAAAAAAAAAAgBAAAAAA=</HashCode>
+      <FileName>jAzul\WindowsContainer.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graphicsEngine" />
+      <Field Name="kb" />
+      <Field Name="windowRenderer" />
+      <Field Name="mo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameTimer">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <Members>
+      <Method Name="~GameTimer" Hidden="true" />
+      <Method Name="GameTimer" Hidden="true" />
+      <Field Name="mBaseTime" Hidden="true" />
+      <Field Name="mDeltaTime" Hidden="true" />
+      <Field Name="mPausedTime" Hidden="true" />
+      <Field Name="mPrevTime" Hidden="true" />
+      <Field Name="mSecondsPerCount" Hidden="true" />
+      <Field Name="mStopped" Hidden="true" />
+      <Field Name="mStopTime" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AhAAAAgAACAABAAJAAAIAgAAAAACAAUAIAAgAAAAQQA=</HashCode>
+      <FileName>jAzul\GameTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jAzul">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <Members>
+      <Method Name="~jAzul" Hidden="true" />
+      <Method Name="jAzul" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ReportLiveDXObjects" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>FIAAAQBAEAAIAQSIQGAAEABICEQAAQAABARwAEEAAEQ=</HashCode>
+      <FileName>jAzul\jAzul.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Keyboard">
+    <Position X="7.75" Y="1.25" Width="1.75" />
+    <Members>
+      <Method Name="~Keyboard" Hidden="true" />
+      <Field Name="charBuffer" Hidden="true" />
+      <Method Name="GetKeyState" Hidden="true" />
+      <Method Name="Keyboard" Hidden="true" />
+      <Field Name="keyBuffer" Hidden="true" />
+      <Method Name="KeyBufferIsEmpty" Hidden="true" />
+      <Field Name="KeyStatesLength" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BEwgQAAAAAEAAAACAAAAAAAwAAAAAACAAAAgAEAAAQA=</HashCode>
+      <FileName>jAzul\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderWindow">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~RenderWindow" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="window_class" Hidden="true" />
+      <Field Name="window_class_wide" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAABEAAQQAQIAIAATAAAAEAAAAAgIiAMAAAAA=</HashCode>
+      <FileName>jAzul\RenderWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mouse">
+    <Position X="5.5" Y="2.25" Width="1.75" />
+    <Members>
+      <Method Name="~Mouse" Hidden="true" />
+      <Field Name="eventBuffer" Hidden="true" />
+      <Method Name="EventBufferIsEmpty" Hidden="true" />
+      <Method Name="GetPos" Hidden="true" />
+      <Method Name="GetPosX" Hidden="true" />
+      <Method Name="GetPosY" Hidden="true" />
+      <Method Name="IsLeftDown" Hidden="true" />
+      <Method Name="IsMiddleDown" Hidden="true" />
+      <Method Name="IsRightDown" Hidden="true" />
+      <Field Name="leftDown" Hidden="true" />
+      <Field Name="middleDown" Hidden="true" />
+      <Method Name="Mouse" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="rightDown" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAEICAQAAAgAUEAgEIwAADIAAAABAIAgABQAaAg=</HashCode>
+      <FileName>jAzul\Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

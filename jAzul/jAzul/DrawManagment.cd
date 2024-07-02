@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DrawManager">
+    <Position X="13.75" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="~DrawManager" Hidden="true" />
+      <Method Name="DrawGO" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privDraw2D" Hidden="true" />
+      <Method Name="privDraw3D" Hidden="true" />
+      <Method Name="privDrawWF" Hidden="true" />
+      <Method Name="Shutdown" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAASAAAGgAAAIAAAABAAAQAEAABACAAAQAEgJAIQAAA=</HashCode>
+      <FileName>jAzul\DrawManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cmdPool" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DrawCmdPool">
+    <Position X="16.75" Y="2" Width="2" />
+    <Members>
+      <Method Name="~DrawCmdPool" Hidden="true" />
+      <Method Name="DrawCmdPool" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BQAUSQAAAAAAAEAAgAAAAAACgAERAAAAAAAiAAAAAAQ=</HashCode>
+      <FileName>jAzul\DrawCmdPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawAlphaCmd">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawAlphaCmd" Hidden="true" />
+      <Method Name="DrawAlphaCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAgEAAAAIA=</HashCode>
+      <FileName>jAzul\DrawAlphaCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawColorCmd">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawColorCmd" Hidden="true" />
+      <Method Name="DrawColorCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAgAAAAAAAAAAAQAgAAAAAIA=</HashCode>
+      <FileName>jAzul\DrawColorCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawColorLightCmd">
+    <Position X="16.75" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawColorLightCmd" Hidden="true" />
+      <Method Name="DrawColorLightCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAgQAgAAIA=</HashCode>
+      <FileName>jAzul\DrawColorLightCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawCommand">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~DrawCommand" Hidden="true" />
+      <Method Name="DrawCommand" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAEAAAAAAAAAQAAAAABAAAAAAAAAAAAAAgEAAAAAA=</HashCode>
+      <FileName>jAzul\DrawCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawSpriteCmd">
+    <Position X="12" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawSpriteCmd" Hidden="true" />
+      <Method Name="DrawSpriteCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAgAAAQAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>jAzul\DrawSpriteCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawTextureCmd">
+    <Position X="19" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawTextureCmd" Hidden="true" />
+      <Method Name="DrawTextureCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQQAAAAAAAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>jAzul\DrawTextureCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawTextureLightCmd">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawTextureLightCmd" Hidden="true" />
+      <Method Name="DrawTextureLightCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQEAAAAAAAAAAAIAAAAAAgAAAAAIA=</HashCode>
+      <FileName>jAzul\DrawTextureLightCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawWFCmd">
+    <Position X="14.5" Y="8.25" Width="1.5" />
+    <Members>
+      <Method Name="~DrawWFCmd" Hidden="true" />
+      <Method Name="DrawWFCmd" Hidden="true" />
+      <Method Name="Execute" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="SetGO" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAAAAIAAAACAAAAgAAAEAIA=</HashCode>
+      <FileName>jAzul\DrawWFCmd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

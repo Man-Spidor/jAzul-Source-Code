@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{f458ef6b-3879-45a1-b690-bb3675eea367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{2fc45b5c-b974-4692-944d-b2a65a99b337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{58c0b827-c48c-445e-a2de-6e80d15288b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{4c379938-5e53-4a18-9e64-c4c326f64ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex">
+      <UniqueIdentifier>{063abded-1e9f-4773-8d38-ba7586801519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex\include">
+      <UniqueIdentifier>{53b8b990-b8c5-4532-ab03-e7130aa67d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex\lib">
+      <UniqueIdentifier>{7cb16f48-c669-45bb-9628-6acd1c0caf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{2456a3dc-556e-4c00-a0fb-ab1ff1e50f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{1c2fab60-77e2-45d3-be75-f90deb7fb424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{b651abad-1452-4d78-91fb-153a763f0d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{9d2b7810-f42c-4448-8ba3-aaddda4ea0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul">
+      <UniqueIdentifier>{e4a3d8c9-e248-4198-a439-73a3c2569149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics">
+      <UniqueIdentifier>{67a41f28-9759-47d6-ab42-66e90499f213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\DX App">
+      <UniqueIdentifier>{2b220d25-da3f-4235-b289-0c75799ee22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Tools">
+      <UniqueIdentifier>{c6b91704-0352-4999-90a6-1edb274c4c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Model">
+      <UniqueIdentifier>{0377c4e8-3072-445b-ab53-b04373828c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Model\Model Tools">
+      <UniqueIdentifier>{7035d245-765f-458f-8bc9-c267abfb2955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Shader">
+      <UniqueIdentifier>{cd4801cc-cbb0-42e9-b86e-b521fcb97831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Texture">
+      <UniqueIdentifier>{1a66ea2c-b7e6-4981-b52e-52a455d934f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Graphics Objects">
+      <UniqueIdentifier>{63ff5b21-e702-4450-bc34-3c3a50f96be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\MemTracker">
+      <UniqueIdentifier>{8c3bf11f-909f-46df-8fe5-0d6bcc3564f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine">
+      <UniqueIdentifier>{7adc7fa2-7453-46d0-b4f5-d9537415951a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Lights">
+      <UniqueIdentifier>{439f633a-2634-49c0-b809-6d1d7ef2272e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Managers">
+      <UniqueIdentifier>{15abe959-3b75-4cbb-b81f-65605d372b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine\Window Management">
+      <UniqueIdentifier>{c8e75100-6736-41a5-bb47-c6848d3f4c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine\Engine Tools">
+      <UniqueIdentifier>{d2307e8c-1b0c-4737-903d-eafff0ca7704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Model\Pre Made">
+      <UniqueIdentifier>{9742f02a-8071-4319-8d62-ecef88ca6a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Shader\Param Data">
+      <UniqueIdentifier>{e03ea1e5-aaf0-490d-bcda-dfa89f55254c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Managers\Draw Management">
+      <UniqueIdentifier>{e6f60011-007f-4e13-b448-898dae1538ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine\Input">
+      <UniqueIdentifier>{a792547a-762f-4157-862e-1fb24dc459f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine\Input\Keyboard">
+      <UniqueIdentifier>{2ca08cbe-ea22-4417-802e-0ad0913b5c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Engine\Input\Mouse">
+      <UniqueIdentifier>{3d193c14-dda9-4f26-9889-0f027ba05b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Graphics Objects\Color">
+      <UniqueIdentifier>{135666b3-d5a5-44f4-8838-aa5516ec19a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Graphics Objects\Texture">
+      <UniqueIdentifier>{dc6b923c-f38d-42f6-b89a-385c65c4b0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Graphics Objects\Sprite">
+      <UniqueIdentifier>{7fcb07e8-d1b3-4b78-ade9-79f02f1683d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Tools\Camera">
+      <UniqueIdentifier>{5fe9d5ce-0a21-48c9-a6de-0b884a2bc01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Graphics Objects\Wireframe">
+      <UniqueIdentifier>{73fa8411-56ec-48a5-9104-03bc64bf9f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Graphics\Managers\Draw Management\Commands">
+      <UniqueIdentifier>{0a562131-f8bb-4c52-bab2-d9aa00997cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source jAzul\Diagrams">
+      <UniqueIdentifier>{23e6d01a-9aef-442f-96a0-9b55697a0a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{7b94717d-e347-4c1b-b644-f822ad171613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jAzul\d3dUtil.cpp">
+      <Filter>Source jAzul\Graphics\DX App</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DirectionalLight.cpp">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawManager.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Engine.cpp">
+      <Filter>Source jAzul\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ErrorLogger.cpp">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\FlatPlane.cpp">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GameTimer.cpp">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicObject_Base.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\jAzul.cpp">
+      <Filter>Source jAzul\Graphics\DX App</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Keyboard.cpp">
+      <Filter>Source jAzul\Engine\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\KeyboardEvent.cpp">
+      <Filter>Source jAzul\Engine\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\MeshSeparator.cpp">
+      <Filter>Source jAzul\Graphics\Model\Model Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ModelTools.cpp">
+      <Filter>Source jAzul\Graphics\Model\Model Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Mouse.cpp">
+      <Filter>Source jAzul\Engine\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\MouseEvent.cpp">
+      <Filter>Source jAzul\Engine\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Model.cpp">
+      <Filter>Source jAzul\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\PointLight.cpp">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\RenderWindow.cpp">
+      <Filter>Source jAzul\Engine\Window Management</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderBase.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderColor.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderColorLight.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderTexture.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderTextureLight.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\SkyBox.cpp">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\SpotLight.cpp">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\StringConverter.cpp">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\TerrainModel.cpp">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Texture.cpp">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\WindowsContainer.cpp">
+      <Filter>Source jAzul\Engine\Window Management</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Image.cpp">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\jAzulRect.cpp">
+      <Filter>Source jAzul\Graphics\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DeviceManager.cpp">
+      <Filter>Source jAzul\Graphics\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderContextManager.cpp">
+      <Filter>Source jAzul\Graphics\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObject_Texture.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObject_TextureLight.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObject_Sprite.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicObject_Color.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicObject_ColorLight.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\ShaderSprite.cpp">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\OrthographicCamera.cpp">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\PerspectiveCamera.cpp">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Camera.cpp">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObject_Wireframe.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawAlphaCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawCmdPool.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawColorCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawColorLightCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawCommand.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawSpriteCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawTextureCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawTextureLightCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\DrawWFCmd.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObjectWF.cpp">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\Sampler.cpp">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="jAzul\GraphicsObject_TextureAlpha.cpp">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\DXTex\include\DirectXTex.h">
+      <Filter>_Libs\DXTex\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>Source jAzul\Graphics\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>Source jAzul\Graphics\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\d3dUtil.h">
+      <Filter>Source jAzul\Graphics\DX App</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\AzulFileHdr.h">
+      <Filter>Source jAzul\Graphics\Model\Model Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DirectionalLight.h">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawManager.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Engine.h">
+      <Filter>Source jAzul\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ErrorLogger.h">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\FogParamData.h">
+      <Filter>Source jAzul\Graphics\Shader\Param Data</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\FlatPlane.h">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GameTimer.h">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicObject_Base.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\jAzul.h">
+      <Filter>Source jAzul\Graphics\DX App</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Keyboard.h">
+      <Filter>Source jAzul\Engine\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\KeyboardEvent.h">
+      <Filter>Source jAzul\Engine\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\LightData.h">
+      <Filter>Source jAzul\Graphics\Shader\Param Data</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\LightNum.h">
+      <Filter>Source jAzul\Graphics\Shader\Param Data</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\LightParamData.h">
+      <Filter>Source jAzul\Graphics\Shader\Param Data</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\MeshSeparator.h">
+      <Filter>Source jAzul\Graphics\Model\Model Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ModelTools.h">
+      <Filter>Source jAzul\Graphics\Model\Model Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Mouse.h">
+      <Filter>Source jAzul\Engine\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\MouseEvent.h">
+      <Filter>Source jAzul\Engine\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Model.h">
+      <Filter>Source jAzul\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\MousePoint.h">
+      <Filter>Source jAzul\Engine\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\PointLight.h">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\RenderWindow.h">
+      <Filter>Source jAzul\Engine\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderBase.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderColor.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderColorLight.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderTexture.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderTextureLight.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderType.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\SkyBox.h">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\SpotLight.h">
+      <Filter>Source jAzul\Graphics\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\StringConverter.h">
+      <Filter>Source jAzul\Engine\Engine Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\TerrainModel.h">
+      <Filter>Source jAzul\Graphics\Model\Pre Made</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Texture.h">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\WindowsContainer.h">
+      <Filter>Source jAzul\Engine\Window Management</Filter>
+    </ClInclude>
+    <ClInclude Include="DX App\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Image.h">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\jAzulRect.h">
+      <Filter>Source jAzul\Graphics\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DeviceManager.h">
+      <Filter>Source jAzul\Graphics\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsAttorney.h">
+      <Filter>Source jAzul\Graphics\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderContextManager.h">
+      <Filter>Source jAzul\Graphics\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObject_Texture.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObject_TextureLight.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObject_Sprite.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicObject_ColorLight.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicObject_Color.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\ShaderSprite.h">
+      <Filter>Source jAzul\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObjectAttorney.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\PerspectiveCamera.h">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\OrthographicCamera.h">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Camera.h">
+      <Filter>Source jAzul\Graphics\Tools\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObject_Wireframe.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawAlphaCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawCmdPool.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawColorCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawColorLightCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawCommand.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawSpriteCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawTextureCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawTextureLightCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\DrawWFCmd.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObjectWF.h">
+      <Filter>Source jAzul\Graphics\Managers\Draw Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\Sampler.h">
+      <Filter>Source jAzul\Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="jAzul\GraphicsObject_TextureAlpha.h">
+      <Filter>Source jAzul\Graphics\Graphics Objects\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\DXTex\lib\DirectXTex.lib">
+      <Filter>_Libs\DXTex\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX App\DXApplication.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Diagrams\Meshes.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\ColorLight.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\ColorSelected.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\ColorSelected3D.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\SimpleColor.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\SimpleColor3D.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\SimpleColorPlus.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\Texture.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\TextureLight.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Assets\Shaders\Sprite.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="jAzul\Engine.cd">
+      <Filter>Source jAzul\Diagrams</Filter>
+    </None>
+    <None Include="jAzul\DrawManagment.cd">
+      <Filter>Source jAzul\Diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DX App\directx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

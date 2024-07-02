@@ -1,0 +1,10 @@
+#ifndef GRAPHICSOBJECTATTORNEY_H
+#define GRAPHICSOBJECTATTORNEY_H
+
+
+class GraphicsObjectAttorney
+{
+
+};
+
+#endif // GRAPHICSOBJECTATTORNEY_H
